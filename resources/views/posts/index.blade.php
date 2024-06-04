@@ -6,12 +6,16 @@
  
 <h2 class='page-header'>投稿一覧</h2>
 
+<!-- <form action="{{ route('posts.index') }}" method="GET">
+    <input type="text" name="keyword" value="{{ $keyword }}">
+</form> -->
+
  
 <table class='table table-hover'>
  
 <tr>
  
-<th>投稿No</th>
+<th>ユーザー名</th>
  
 <th>投稿内容</th>
  

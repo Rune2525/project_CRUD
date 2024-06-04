@@ -7,7 +7,7 @@
  
 　<meta charset='utf-8'>
  
-　<link rel='stylesheet' href='/css/app.css'>
+　<link rel='stylesheet' href='/css/app02.css'>
  
 　<meta name="viewport" content="width=device-width, initial-scale=1">
  
