@@ -6,10 +6,6 @@
  
 <h2 class='page-header'>投稿一覧</h2>
 
-<!-- <form action="{{ route('posts.index') }}" method="GET">
-    <input type="text" name="keyword" value="{{ $keyword }}">
-</form> -->
-
  
 <table class='table table-hover'>
  
@@ -30,15 +26,15 @@
  
 <tr>
  
-<td>{{ $list->id }}</td>
+<td>{{ $list->name }}</td>
  
 <td>{{ $list->post }}</td>
  
 <td>{{ $list->created_at }}</td>
 
-<td><a class="btn btn-primary" href="/post/{{ $list->id }}/update-form">編集</a></td>
+<td><a class="btn btn-primary" href="/post/{{ $list->name }}/update-form">編集</a></td>
 
-<td><a class="btn btn-danger" href="/post/{{ $list->id }}/delete" onclick="return confirm('こちらの投稿を削除してもよろしいでしょうか？')">削除</a></td>
+<td><a class="btn btn-danger" href="/post/{{ $list->name }}/delete" onclick="return confirm('こちらの投稿を削除してもよろしいでしょうか？')">削除</a></td>
  
 </tr>
  

@@ -20,7 +20,7 @@ class Posts extends Migration
  
             $table->increments('id');
 
-            $table->varchar('name', 255);
+            $table->string('name', 100);
 
             $table->integer('user_id');
              
